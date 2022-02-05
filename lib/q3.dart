@@ -6,19 +6,6 @@
 // Examples of returns in different languages:
 // a = ["az", "toto", "picaro", "zone", "kiwi"] -->
 // [["az", "toto picaro zone kiwi"], ["az toto", "picaro zone kiwi"], ["az toto picaro", "zone kiwi"], ["az toto picaro zone", "kiwi"]] 
-// or
-//  a = {"az", "toto", "picaro", "zone", "kiwi"} -->
-// {{"az", "toto picaro zone kiwi"}, {"az toto", "picaro zone kiwi"}, {"az toto picaro", "zone kiwi"}, {"az toto picaro zone", "kiwi"}}
-// or
-// a = ["az", "toto", "picaro", "zone", "kiwi"] -->
-// [("az", "toto picaro zone kiwi"), ("az toto", "picaro zone kiwi"), ("az toto picaro", "zone kiwi"), ("az toto picaro zone", "kiwi")]
-// or 
-// a = [|"az", "toto", "picaro", "zone", "kiwi"|] -->
-// [("az", "toto picaro zone kiwi"), ("az toto", "picaro zone kiwi"), ("az toto picaro", "zone kiwi"), ("az toto picaro zone", "kiwi")]
-// or
-// a = ["az", "toto", "picaro", "zone", "kiwi"] -->
-// "(az, toto picaro zone kiwi)(az toto, picaro zone kiwi)(az toto picaro, zone kiwi)(az toto picaro zone, kiwi)"
-// Note
 // You can see other examples for each language in "Your test cases"
 
 List<List<String>> partlist(List<String> arr) {
