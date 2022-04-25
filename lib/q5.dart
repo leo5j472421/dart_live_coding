@@ -4,5 +4,5 @@
 // Which mean the calculate will be : (0+9+5+2)/4 = 4, and 4 in string is four
 // If the string is empty or includes a number greater than 9, return "n/a"
 String computed(String inputStrings) {
-  return 'n/a';
+  return "";
 }
