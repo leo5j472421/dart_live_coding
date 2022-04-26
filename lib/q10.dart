@@ -1,20 +1,14 @@
-// Complete the function which converts hex number (given as a string) to a decimal number.
-import 'dart:math' as math;
-int hexToDec(String hexString) {
-  var HexNum = '0123456789abcdef';
-  hexString = hexString.toLowerCase().split("").reversed.join("");
-  int result = 0 ;
-  bool isNative = false;
-  for (var i = 0; i < hexString.length; i++) {
-    if ( hexString[i] == "-" ){
-      isNative = true;
-      continue;
-    }
-     result += math.pow(16,i).toInt() * HexNum.indexOf(hexString[i]);
-  }
-  print(16^0);
-  print(16^1);
-  print(16^2);
-    
-  return isNative ? -result : result;
+// The rgb function is incomplete. Complete it so that passing in RGB decimal values will result in a hexadecimal representation being returned. Valid decimal values for RGB are 0 - 255. Any values that fall out of that range must be rounded to the closest valid value.
+
+// Note: Your answer should always be 6 characters long, the shorthand with 3 will not work here.
+
+// The following are examples of expected output values:
+
+// rgb(255, 255, 255) // returns FFFFFF
+// rgb(255, 255, 300) // returns FFFFFF
+// rgb(0, 0, 0)       // returns 000000
+// rgb(148, 0, 211)   // returns 9400D3
+String rgb(int r, int g, int b)
+{
+  return ''; // replace with your solution
 }
