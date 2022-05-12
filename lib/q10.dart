@@ -8,7 +8,7 @@
 // rgb(255, 255, 300) // returns FFFFFF
 // rgb(0, 0, 0)       // returns 000000
 // rgb(148, 0, 211)   // returns 9400D3
-String rgb(int r, int g, int b)
-{
-  return ''; // replace with your solution
+String rgb(int r, int g, int b) {
+  return "";
 }
+
